@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView android:id="@+id/title_tv"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text= "@string/amortized_mortgage_payment"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <LinearLayout android:id="@+id/fields_ll"
+        android:padding="8dp"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@id/title_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText android:id="@+id/purchase_price_edit_text"
+            android:inputType="numberDecimal"
+            android:hint="@string/purchase_price"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <EditText android:id="@+id/down_payment_edit_text"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:hint="@string/down_payment"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <EditText android:id="@+id/interest_rate_edit_text"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp"
+            android:hint="@string/interest_rate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:text="@string/loan_length_years"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Spinner android:id="@+id/loan_length_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center_vertical"
+            android:weightSum="3"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textSize="30sp"
+                android:text="@string/payment"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:textSize="30sp"
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <Button android:id="@+id/randomize_button"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="Randomize!"
+        app:layout_constraintTop_toBottomOf="@id/fields_ll"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
