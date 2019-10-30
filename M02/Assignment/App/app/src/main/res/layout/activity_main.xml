@@ -6,13 +6,38 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
+    <TextView android:id="@+id/tv_title"
+        android:textSize="26sp"
+        android:text="Crash Analytics with Buttons"
+        app:layout_constraintBottom_toTopOf="@id/ll_for_buttons"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout android:id="@+id/ll_for_buttons"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button android:id="@+id/bttn_runtimeException"
+            android:layout_marginTop="0dp"
+            android:text="@string/runtime_exception"
+            style="@style/MainActivityButtons"/>
+        <Button android:id="@+id/bttn_arrayOutOfBoundsException"
+            android:text="Array Out of Bounds Exception"
+            style="@style/MainActivityButtons"/>
+        <Button android:id="@+id/bttn_nullPointerException"
+            android:text="Null Pointer Exception"
+            style="@style/MainActivityButtons"/>
+        <Button android:id="@+id/bttn_arithmeticException"
+            android:text="Arithmetic Exception"
+            style="@style/MainActivityButtons"/>
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
