@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RxJavaAssignment</string>
+    <string name="amortized_mortgage_payment">Amortized Mortgage Payment</string>
+    <string name="purchase_price">Purchase Price</string>
+    <string name="down_payment">Down Payment</string>
+    <string name="loan_length_years">Loan Length (Years)</string>
+    <string name="interest_rate">Interest Rate (%)</string>
+    <string name="payment">Payment:</string>
+</resources>
