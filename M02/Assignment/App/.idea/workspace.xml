@@ -5,13 +5,15 @@
       <config />
     </shared>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ed1a6feb-72ce-46a8-9444-39e5149bf0f5" name="Default Changelist" comment="" />
+    <list default="true" id="3299ff36-1946-453d-9f85-6b0274ac83b3" name="Default Changelist" comment="- Initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules/App.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../M01/Assignment/RxJavaAssignment/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../M01/Assignment/RxJavaAssignment/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +21,8 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="Pixel_3_API_29" />
   <component name="ExternalProjectsData">
@@ -48,9 +51,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/versilis/rxjavaassignment/MainActivity.kt" />
       </list>
     </option>
   </component>
@@ -61,14 +63,23 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Problems'; set:Problems; class com.intellij.psi.search.scope.ProblemsScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CrashlyticsAssignment" type="b2602c69:ProjectViewProjectNode" />
+              <item name="App" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -77,6 +88,11 @@
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -98,7 +114,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -157,41 +173,27 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="ed1a6feb-72ce-46a8-9444-39e5149bf0f5" name="Default Changelist" comment="" />
-      <created>1572307164573</created>
+      <changelist id="3299ff36-1946-453d-9f85-6b0274ac83b3" name="Default Changelist" comment="" />
+      <created>1572463961387</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572307164573</updated>
+      <updated>1572463961387</updated>
     </task>
-    <task id="LOCAL-00001" summary="- Initial Comit">
-      <created>1572316950297</created>
+    <task id="LOCAL-00001" summary="- Initial commit">
+      <created>1572464956952</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1572316950298</updated>
+      <updated>1572464956952</updated>
     </task>
-    <task id="LOCAL-00002" summary="- Initial Comit">
-      <created>1572320946554</created>
+    <task id="LOCAL-00002" summary="- Initial commit">
+      <created>1572464989880</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1572320946554</updated>
+      <updated>1572464989880</updated>
     </task>
-    <task id="LOCAL-00003" summary="- Initial commit">
-      <created>1572366978756</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1572366978757</updated>
-    </task>
-    <task id="LOCAL-00004" summary="- Initial commit">
-      <created>1572367186118</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1572367186119</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -203,44 +205,42 @@
       <window_info id="Image Layers" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info id="Capture Tool" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.32879657" />
+      <window_info content_ui="combo" id="Project" order="6" visible="true" weight="0.3295129" />
       <window_info id="Resources Explorer" order="7" />
       <window_info id="Structure" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="0" visible="true" weight="0.32939634" />
-      <window_info anchor="bottom" id="Run" order="1" weight="0.32939634" />
+      <window_info anchor="bottom" id="Build" order="0" sideWeight="0.49856734" visible="true" weight="0.32939634" />
+      <window_info anchor="bottom" id="Run" order="1" />
       <window_info anchor="bottom" id="Android Profiler" order="2" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="3" sideWeight="0.50143266" side_tool="true" visible="true" weight="0.32939634" />
       <window_info anchor="bottom" id="Statistic" order="4" />
-      <window_info anchor="bottom" id="Logcat" order="5" weight="0.32939634" />
+      <window_info anchor="bottom" id="Logcat" order="5" />
       <window_info anchor="bottom" id="Flutter Performance" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32939634" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="TODO" order="9" />
       <window_info anchor="bottom" id="Debug" order="10" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Flutter Inspector" order="1" />
       <window_info anchor="right" id="Capture Analysis" order="2" />
-      <window_info anchor="right" id="Preview" order="3" weight="0.3297568" />
+      <window_info anchor="right" id="Key Promoter X" order="3" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
       <window_info anchor="right" id="Flutter Outline" order="5" />
-      <window_info anchor="right" id="Key Promoter X" order="6" />
+      <window_info anchor="right" id="Assistant" order="6" weight="0.3297568" />
       <window_info anchor="right" id="Viewer" order="7" side_tool="true" />
       <window_info anchor="right" id="Gradle" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
-      <window_info anchor="right" id="Codota" order="10" weight="0.3297568" />
+      <window_info anchor="right" id="Codota" order="10" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="- Initial Comit" />
     <MESSAGE value="- Initial commit" />
     <option name="LAST_COMMIT_MESSAGE" value="- Initial commit" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/versilis/crashlyticsassignment/MainActivity.kt" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
     <entry file="file://$PROJECT_DIR$/app/build.gradle" />
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/versilis/rxjavaassignment/MainActivity.kt" />
   </component>
   <component name="masterDetails">
     <states>

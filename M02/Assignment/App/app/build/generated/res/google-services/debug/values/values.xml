@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1042286371535-vn9lc8tof8utsslums13lm9c2r0ka4f7.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://crashlyticsassignment-974e4.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1042286371535</string>
+    <string name="google_api_key" translatable="false">AIzaSyCDrheMgF4Ol2eGJw8KgHekDpcnE5f2ydY</string>
+    <string name="google_app_id" translatable="false">1:1042286371535:android:eb5e43755a5485d3ed4dba</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCDrheMgF4Ol2eGJw8KgHekDpcnE5f2ydY</string>
+    <string name="google_storage_bucket" translatable="false">crashlyticsassignment-974e4.appspot.com</string>
+    <string name="project_id" translatable="false">crashlyticsassignment-974e4</string>
+</resources>
